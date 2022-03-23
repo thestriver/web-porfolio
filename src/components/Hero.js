@@ -15,9 +15,9 @@ export const Hero = () => {
                         </p>
 
                     <div className="flex text-white space-x-5 text-xl pt-5">
-                            <a className="underline cursor-pointer" src="" >GitHub</a>
-                            <a className="underline cursor-pointer">Resume</a>
-                            <a className="underline cursor-pointer">LinkedIn</a>
+                        <a className="underline cursor-pointer" href="https://github.com/thestriver">GitHub</a>
+                        <a className="underline cursor-pointer">Resume</a>
+                        <a className="underline cursor-pointer" href="https://www.linkedin.com/in/mahmudadeleye/">LinkedIn</a>
                     </div>      
             </div>
         </div>
