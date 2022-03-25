@@ -17,7 +17,6 @@ export const Hero = () => {
                     <div className="flex text-white space-x-5 text-xl pt-5">
                         <a className="underline cursor-pointer" href="https://github.com/thestriver">GitHub</a>
                         <a className="underline cursor-pointer" href="http://adeleyemahmud.com/wp-content/uploads/2022/03/web3_Frontend_Engineer_Resume_Mahmud.pdf">Resume</a>
-                        <a className="underline cursor-pointer" href="https://www.linkedin.com/in/mahmudadeleye/">LinkedIn</a>
                     </div>      
             </div>
         </div>

@@ -26,7 +26,8 @@ export const Projects = () => {
                 <p className="text-sm py-2">A web3 Educational Adventure. Winners get a cool gift at the end.
                     <span className="py-1 "> Built using Typescript, React JS, Ethers.js, Headless UI and Tailwind CSS.</span>
                 </p>
-                <a className="pb-2 leading-none rounded-xl font-bold mt-3 underline text-green-600 text-sm" href="https://github.com/thestriver/devore-edu-app">
+                <a className="pb-2 leading-none rounded-xl font-bold mt-3 underline text-green-600 text-sm" 
+                href="https://github.com/thestriver/devore-edu-app">
                     Link 
                 </a>
                 </div>
