@@ -1,9 +1,9 @@
 export const Footer = () => {
     return (
         <div className="py-8">
-            <footer className="bg-gray-900 rounded-2xl flex items-center justify-between px-4 py-7 lg:mx-48 max-w-7xl md:flex-row">
-            <p className="mb-8 text-sm text-center font-medium text-white md:text-left md:mb-0">
-            &copy;{(new Date().getFullYear())} Mahmud Adeleye. All Rights Reserved.</p>
+            <footer className="bg-gray-900 rounded-2xl flex items-center justify-between px-4 lg:py-7 py-1 lg:mx-48 max-w-7xl md:flex-row">
+            <p className=" text-sm text-center font-medium text-white md:text-left md:mb-0">
+            &copy;{(new Date().getFullYear())} Mahmud Adeleye.</p>
             <div className="flex items-center space-x-6">
                 <a href="https://github.com/thestriver">
                 <span className="sr-only">GitHub</span>
