@@ -74,6 +74,23 @@ export const Projects = () => {
             {/* Project 3  */}
             <div className="flex flex-col bg-gray-900 text-white rounded-lg p-4 m-2">
                 <div className="rounded-lg">
+                    <img className="" alt="memories app" src="https://i.ibb.co/vzn332F/z-picture.png" />
+                </div>
+                <div className="flex flex-col items-start mt-4">
+                <h4 className="text-xl font-semibold">Memories</h4>
+                <p className="text-sm py-2">An dApp that stores memories forever. Images and texts are stored on a decentralized file chain. 
+                    <span className="py-1"> Built using React JS, CSS and the IPFS web3 protocol.</span>
+                </p>
+                <a className="pb-2 leading-none rounded-xl font-bold mt-3 underline text-green-600 text-sm" href="https://memories-ten.vercel.app/">
+                    Link  
+                </a>
+                </div>
+            </div>
+            
+            
+            {/* Project 4  */}
+            <div className="flex flex-col bg-gray-900 text-white rounded-lg p-4 m-2">
+                <div className="rounded-lg">
                     <img className="" alt="moralised app" src="https://i.ibb.co/Kb4cJsX/Screen-Shot-2021-08-08-at-23-16-28.png" />
                 </div>
                 <div className="flex flex-col items-start mt-4">
@@ -85,22 +102,6 @@ export const Projects = () => {
                     <a className="pb-2 leading-none rounded-xl font-bold mt-3 underline text-green-600 text-sm" href="https://github.com/thestriver/moralised">
                         Link 
                     </a>
-                </div>
-            </div>
-            
-            {/* Project 4  */}
-            <div className="flex flex-col bg-gray-900 text-white rounded-lg p-4 m-2">
-                <div className="rounded-lg">
-                    <img className="" alt="memories app" src="https://i.ibb.co/vzn332F/z-picture.png" />
-                </div>
-                <div className="flex flex-col items-start mt-4">
-                <h4 className="text-xl font-semibold">Memories</h4>
-                <p className="text-sm py-2">An dApp that stores memories forever. Images and texts are stored on a decentralized file chain. 
-                    <span className="py-1"> Built using React JS, CSS and the IPFS web3 protocol.</span>
-                </p>
-                <a className="pb-2 leading-none rounded-xl font-bold mt-3 underline text-green-600 text-sm" href="https://memories-ten.vercel.app/">
-                    Link  
-                </a>
                 </div>
             </div>
 
