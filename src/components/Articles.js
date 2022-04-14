@@ -6,7 +6,7 @@ export const Articles = () => {
                     <h1 className="text-3xl font-bold tracking-tight text-white xl:text-4xl">Technical Articles 📖</h1> 
                     <p className="block lg:max-w-5xl font-normal my-3 text-xl text-gray-200 tracking-wide">
                         I also love writing <span className="text-xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500"
-                        >web3</span> technical articles. The best developers are those who are able to document their projects.
+                        >web3</span> technical articles. I believe the best developers are those who are able to document their projects.
                     </p>
                 </div>
             
