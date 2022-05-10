@@ -12,10 +12,8 @@ export const Articles = () => {
             
             </div>
 
-            <div className="container flex flex-col items-center px-2 pt-4 pb-12 mx-auto xl:flex-row">
-            {/* Resize the preview panel to check the responsiveness*/}                
+            <div className="container flex flex-col items-center px-2 pt-4 pb-12 mx-auto xl:flex-row">            
                 <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-2 xl:space-x-5 xl:max-w-7xl">
-                    {/* Tile 1  */}
                     <div className="flex bg-gray-900 text-white rounded-lg py-3">
                         <div className="flex flex-col items-start px-4">
                             <p className="text-md font-semibold">A Simple Ethereum Blockchain Explorer with Javascript, QuickNode API, and Tailwind CSS
