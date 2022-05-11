@@ -12,8 +12,7 @@ export const Projects = () => {
             
         </div>
         
-        <div className="container flex flex-col items-center px-2 mx-auto xl:flex-row">
-        {/* Resize the preview panel to check the responsiveness*/}                
+        <div className="container flex flex-col items-center px-2 mx-auto xl:flex-row">             
         <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-2 max-w-7xl">
 
             {/* Project 1  */}
