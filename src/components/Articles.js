@@ -1,3 +1,5 @@
+import { ArticleCard as Card} from './ArticleCard'
+
 export const Articles = () => {
     return (
        <>
