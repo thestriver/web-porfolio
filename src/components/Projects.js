@@ -1,3 +1,4 @@
+import Cards from './Cards'
 export const Projects = () => {
     return (
        <>
@@ -16,9 +17,16 @@ export const Projects = () => {
         <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-2 max-w-7xl">
 
             {/* Project 1  */}
+            <Cards
+				gitlink="https://github.com/thestriver/photo-feed"
+				image="https://i.ibb.co/KW7NfLN/amplify-aws.jpg"				
+				title="Photo Feed App"
+				description="React JS, AWS Amplify Admin UI and Tailwind CSS"
+			/>
             <div className="flex flex-col bg-gray-900 text-white rounded-lg p-4 m-2">
                 <div className="rounded-lg">
-                    <img style={{ width: '262px', height: '157px'}} className="" alt="devore app" src="https://cdn.devdojo.com/images/november2020/hero-image.jpeg" />
+                    <img style={{ width: '262px', height: '157px'}} className="" alt="devore app" 
+                    src="https://cdn.devdojo.com/images/november2020/hero-image.jpeg" />
                 </div>
                 <div className="flex flex-col items-start mt-4">
                 <h4 className="text-xl font-semibold">Lamhi</h4>
