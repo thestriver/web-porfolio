@@ -18,10 +18,11 @@ export const Projects = () => {
 
             {/* Project 1  */}
             <Cards
-				gitlink="https://github.com/thestriver/photo-feed"
-				image="https://i.ibb.co/KW7NfLN/amplify-aws.jpg"				
-				title="Photo Feed App"
-				description="React JS, AWS Amplify Admin UI and Tailwind CSS"
+				gitlink="https://lamhi.vercel.app/"
+				image="https://cdn.devdojo.com/images/november2020/hero-image.jpeg"				
+				title="Lamhi"
+				description="Lamhi helps you conveniently send and recieve money in an instant ⚡.
+                Built using React (Next.js), Solana Web3.js, Solana Pay and Tailwind CSS."
 			/>
             <div className="flex flex-col bg-gray-900 text-white rounded-lg p-4 m-2">
                 <div className="rounded-lg">
