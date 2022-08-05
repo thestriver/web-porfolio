@@ -1,4 +1,4 @@
-import {Cards as ProjectCard} from './Cards'
+import { ProjectCard } from './ProjectCard'
 export const Projects = () => {
     return (
        <>
@@ -21,12 +21,21 @@ export const Projects = () => {
 				gitlink="https://lamhi.vercel.app/"
 				image="https://cdn.devdojo.com/images/november2020/hero-image.jpeg"				
 				title="Lamhi"
-				description="Lamhi helps you conveniently send and recieve money in an instant ⚡.
-                Built using React (Next.js), Solana Web3.js, Solana Pay and Tailwind CSS."
+				description="Lamhi helps you send and recieve digital money in an instant ⚡ across Africa.
+                Built using React (Next.js) framework, Solana Web3.js, Solana Pay and Tailwind."
 			/>
 
             {/* Project 2  */}
             <ProjectCard
+				gitlink="https://github.com/thestriver/schoolkit-frontend"
+				image="https://schoolkit-frontend.vercel.app/_next/image?url=http%3A%2F%2Fthehelpmatesfoundation.com%2Fwp-content%2Fuploads%2F2020%2F02%2FWhatsApp-Image-2019-12-19-at-6.46.27-PM-1024x768.jpeg&w=1920&q=75"				
+				title="Donate A School Kit dApp"
+				description="dApp for donating school kits.
+                Built using React (Next.js), Ethers.js, Solana Web3.js, Solana Pay, Stripe and Tailwind CSS."
+			/>
+
+             {/* Project 3 */}
+             <ProjectCard
 				gitlink="https://github.com/thestriver/devore-edu-app"
 				image="https://i.ibb.co/6Jbby8C/Screen-Shot-2022-03-22-at-18-28-24.png"				
 				title="Devore Educational dApp"
@@ -34,44 +43,15 @@ export const Projects = () => {
                 Built using Typescript, React JS, Ethers.js, Headless UI and Tailwind CSS"
 			/>
 
-             {/* Project 2  */}
-             <div className="flex flex-col bg-gray-900 text-white rounded-lg p-4 m-2">
-                <div className="rounded-lg">
-                    <img style={{ width: '262px', height: '157px'}} className="" alt="donate app" src="https://schoolkit-frontend.vercel.app/_next/image?url=http%3A%2F%2Fthehelpmatesfoundation.com%2Fwp-content%2Fuploads%2F2020%2F02%2FWhatsApp-Image-2019-12-19-at-6.46.27-PM-1024x768.jpeg&w=1920&q=75" />
-                </div>
-                <div className="flex flex-col items-start mt-4">
-                    <h4 className="text-xl font-semibold">Donate A School Kit dApp</h4>
-                    <p className="text-sm py-2">
-                        A Solana dApp for donating school kits <br />
-                        <span className="py-1">Built using React (Next.js), Solana Web3.js, Solana Pay, Stripe and Tailwind CSS.</span>
-                    </p>
-                    <a className="pb-2 leading-none rounded-xl font-bold mt-3 underline text-green-600 text-sm" 
-                    href="https://solana-school-kit.vercel.app/">
-                        Link 
-                    </a>
-                </div>
-            </div>
 
-
-            {/* Project 2  */}
-            <div className="flex flex-col bg-gray-900 text-white rounded-lg p-4 m-2">
-                <div className="rounded-lg">
-                    <img className="" alt="donate app" src="https://i.ibb.co/pwNmc6F/IMG-5229-1024x683.jpg" />
-                </div>
-                <div className="flex flex-col items-start mt-4">
-                    <h4 className="text-xl font-semibold">Donate A School Kit dApp</h4>
-                    <p className="text-sm py-2">
-                        An Ethereum dApp for donating school kits to underpriviledged school kids. <br />
-                        <span className="py-1">Built using React (Next.js), Ethers.js and Tailwind CSS.</span>
-                    </p>
-                    <a className="pb-2 leading-none rounded-xl font-bold mt-3 underline text-green-600 text-sm" 
-                    href="https://schoolkit-frontend.vercel.app/">
-                        Link 
-                    </a>
-                </div>
-            </div>
-
-            {/* Project 2b  */}
+            {/* Project 4  */}
+            <ProjectCard
+				gitlink="https://github.com/thestriver/devore-edu-app"
+				image="https://i.ibb.co/6Jbby8C/Screen-Shot-2022-03-22-at-18-28-24.png"				
+				title="Smart Contracts"
+				description="A web3 Educational Adventure. Winners get a cool gift at the end.
+                Built using Typescript, React JS, Ethers.js, Headless UI and Tailwind CSS"
+			/>
             <div className="flex flex-col bg-gray-900 text-white rounded-lg p-4 m-2">
                 <div className="rounded-lg">
                     <img className="" alt="donate app" 
@@ -79,7 +59,7 @@ export const Projects = () => {
                     />
                 </div>
                 <div className="flex flex-col items-start mt-4">
-                    <h4 className="text-xl font-semibold">dApp Smart Contracts</h4>
+                    <h4 className="text-xl font-semibold">Smart Contracts</h4>
                     <p className="text-sm py-2">
                      Smart Contracts for the Donate-A-School-Kit dApp <br />
                         <span className="py-1">Built using Solidity and Ethers.js </span><br />

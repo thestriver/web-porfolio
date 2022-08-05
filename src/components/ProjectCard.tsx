@@ -5,13 +5,13 @@ interface CardProps {
     gitlink: string
 }
 
-const Cards = ({image, title, description, gitlink}: CardProps) => { 
+export const ProjectCard = ({image, title, description, gitlink}: CardProps) => { 
     
     return (
         <>
             <div className="flex flex-col bg-gray-900 text-white rounded-lg p-4 m-2">
                         <div className="rounded-lg">
-                            <img className="max-h-md" src={image} alt="portfolio"  />
+                            <img className="" src={image} alt="portfolio" style={{ width: '262px', height: '157px'}}  />
                         </div>
                         <div className="flex flex-col items-start mt-4">
                             <h4 className="text-xl font-semibold">{title}</h4>
@@ -24,14 +24,6 @@ const Cards = ({image, title, description, gitlink}: CardProps) => {
                         </div>
             </div>
         </>
-
-        
     )
-
-    
-
 }
-
-
-export default Cards;
 
