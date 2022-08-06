@@ -46,30 +46,12 @@ export const Projects = () => {
 
             {/* Project 4  */}
             <ProjectCard
-				gitlink="https://github.com/thestriver/devore-edu-app"
-				image="https://i.ibb.co/6Jbby8C/Screen-Shot-2022-03-22-at-18-28-24.png"				
+				gitlink="https://github.com/thestriver/schoolkit-contracts"
+				image="https://i.ibb.co/4Y1w14p/Screen-Shot-2022-03-22-at-18-14-52.png"				
 				title="Smart Contracts"
-				description="A web3 Educational Adventure. Winners get a cool gift at the end.
-                Built using Typescript, React JS, Ethers.js, Headless UI and Tailwind CSS"
+				description="Smart Contracts for the Donate-A-School-Kit dApp.
+                Built using Solidity and Ethers.js"
 			/>
-            <div className="flex flex-col bg-gray-900 text-white rounded-lg p-4 m-2">
-                <div className="rounded-lg">
-                    <img className="" alt="donate app" 
-                    src="https://i.ibb.co/4Y1w14p/Screen-Shot-2022-03-22-at-18-14-52.png" 
-                    />
-                </div>
-                <div className="flex flex-col items-start mt-4">
-                    <h4 className="text-xl font-semibold">Smart Contracts</h4>
-                    <p className="text-sm py-2">
-                     Smart Contracts for the Donate-A-School-Kit dApp <br />
-                        <span className="py-1">Built using Solidity and Ethers.js </span><br />
-                    </p>
-                    <a className="lg:pt-4 pb-2 leading-none rounded-xl font-bold mt-3 underline text-green-600 text-sm" href="https://github.com/thestriver/schoolkit-contracts">
-                        Link 
-                    </a>
-                </div>
-            </div>
-
 
             {/* Project 3  */}
             <div className="flex flex-col bg-gray-900 text-white rounded-lg p-4 m-2">
