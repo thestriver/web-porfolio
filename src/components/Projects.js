@@ -53,21 +53,14 @@ export const Projects = () => {
                 Built using Solidity and Ethers.js"
 			/>
 
-            {/* Project 3  */}
-            <div className="flex flex-col bg-gray-900 text-white rounded-lg p-4 m-2">
-                <div className="rounded-lg">
-                    <img className="" alt="memories app" src="https://i.ibb.co/vzn332F/z-picture.png" />
-                </div>
-                <div className="flex flex-col items-start mt-4">
-                <h4 className="text-xl font-semibold">Memories</h4>
-                <p className="text-sm py-2">An dApp that stores memories forever. Images and texts are stored on a decentralized file chain. 
-                    <span className="py-1"> Built using React JS, CSS and the IPFS web3 protocol.</span>
-                </p>
-                <a className="pb-2 leading-none rounded-xl font-bold mt-3 underline text-green-600 text-sm" href="https://memories-ten.vercel.app/">
-                    Link  
-                </a>
-                </div>
-            </div>
+            {/* Project 5  */}
+            <ProjectCard
+				gitlink="https://memories-ten.vercel.app/"
+				image="https://i.ibb.co/vzn332F/z-picture.png"				
+				title="Memories"
+				description="An dApp that stores memories forever. Images and texts are stored on a decentralized file chain..
+                Built using React JS, CSS and the IPFS web3 protocol"
+			/>
             
             
             {/* Project 4  */}
