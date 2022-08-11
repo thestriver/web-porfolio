@@ -58,12 +58,20 @@ export const Projects = () => {
 				gitlink="https://memories-ten.vercel.app/"
 				image="https://i.ibb.co/vzn332F/z-picture.png"				
 				title="Memories"
-				description="An dApp that stores memories forever. Images and texts are stored on a decentralized file chain..
+				description="An dApp that stores memories forever. Images and texts are stored on a decentralized file chain.
                 Built using React JS, CSS and the IPFS web3 protocol"
 			/>
             
             
-            {/* Project 4  */}
+            {/* Project 6  */}
+            <ProjectCard
+				gitlink="https://github.com/thestriver/moralised"
+				image="https://i.ibb.co/Kb4cJsX/Screen-Shot-2021-08-08-at-23-16-28.png"				
+				title="Moralised"
+				description="A minimalist ETH token dashboard showing last transactions
+                and tokens balance. 
+                Built with React JS, Moralis API, and Bootstrap CSS."
+			/>
             <div className="flex flex-col bg-gray-900 text-white rounded-lg p-4 m-2">
                 <div className="rounded-lg">
                     <img className="" alt="moralised app" src="https://i.ibb.co/Kb4cJsX/Screen-Shot-2021-08-08-at-23-16-28.png" />
@@ -74,7 +82,8 @@ export const Projects = () => {
                     and tokens balance. 
                     <span className="py-1"> Built with React JS, Moralis API, and Bootstrap CSS.</span>
                     </p>
-                    <a className="pb-2 leading-none rounded-xl font-bold mt-3 underline text-green-600 text-sm" href="https://github.com/thestriver/moralised">
+                    <a className="pb-2 leading-none rounded-xl font-bold mt-3 underline text-green-600 text-sm" 
+                    href="https://github.com/thestriver/moralised">
                         Link 
                     </a>
                 </div>
