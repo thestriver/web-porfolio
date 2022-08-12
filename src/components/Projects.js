@@ -72,40 +72,15 @@ export const Projects = () => {
                 and tokens balance. 
                 Built with React JS, Moralis API, and Bootstrap CSS."
 			/>
-            <div className="flex flex-col bg-gray-900 text-white rounded-lg p-4 m-2">
-                <div className="rounded-lg">
-                    <img className="" alt="moralised app" src="https://i.ibb.co/Kb4cJsX/Screen-Shot-2021-08-08-at-23-16-28.png" />
-                </div>
-                <div className="flex flex-col items-start mt-4">
-                <h4 className="text-xl font-semibold">Moralised</h4>
-                <p className="text-sm py-2">A minimalist ETH token dashboard showing last transactions
-                    and tokens balance. 
-                    <span className="py-1"> Built with React JS, Moralis API, and Bootstrap CSS.</span>
-                    </p>
-                    <a className="pb-2 leading-none rounded-xl font-bold mt-3 underline text-green-600 text-sm" 
-                    href="https://github.com/thestriver/moralised">
-                        Link 
-                    </a>
-                </div>
-            </div>
 
-            {/* Project 4  */}
-            <div className="flex flex-col bg-gray-900 text-white rounded-lg p-4 m-2">
-                <div className="rounded-lg">
-                    <img className="" alt="memories app" src="https://i.ibb.co/MRyFvVT/ethereum-1024x683.jpg" />
-                </div>
-                <div className="flex flex-col items-start mt-4">
-                <h4 className="text-xl font-semibold">A Simple Voting dApp</h4>
-                <p className="text-sm py-2">A voting dApp that allows users to choose between three specified candidates.
-                    <span className="py-1"> Built using Javascript, Solidity, Ethers.js, Ganache.
-                    </span>
-                </p>
-                <a className="pb-2 leading-none rounded-xl font-bold mt-3 underline text-green-600 text-sm" 
-                href="https://github.com/thestriver/js-eth-votingdapp">
-                    Link  
-                </a>
-                </div>
-            </div>
+            {/* Project 7  */}
+            <ProjectCard
+				gitlink="https://github.com/thestriver/js-eth-votingdapp"
+				image="https://i.ibb.co/MRyFvVT/ethereum-1024x683.jpg"				
+				title="A Simple Voting dApp"
+				description="A voting dApp that allows users to choose between three specified candidates.
+                Built using Javascript, Solidity, Ethers.js, Ganache."
+			/>
         </div>
         </div>
        </>
