@@ -18,6 +18,15 @@ export const Projects = () => {
 
             {/* Project 1  */}
             <ProjectCard
+				gitlink="https://www.web3collection.app/"
+				image="https://images.unsplash.com/photo-1453563391321-df71955e9289?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"				
+				title="web3collection"
+				description="The biggest collection of tools and resources for web3 developers.
+                Built using React (Next.js) framework, Typescript, and CSS."
+			/>
+            
+            {/* Project 2  */}
+            <ProjectCard
 				gitlink="https://lamhi.vercel.app/"
 				image="https://cdn.devdojo.com/images/november2020/hero-image.jpeg"				
 				title="Lamhi"
@@ -25,7 +34,7 @@ export const Projects = () => {
                 Built using React (Next.js) framework, Solana Web3.js, Solana Pay and Tailwind."
 			/>
 
-            {/* Project 2  */}
+            {/* Project 3  */}
             <ProjectCard
 				gitlink="https://github.com/thestriver/schoolkit-frontend"
 				image="https://schoolkit-frontend.vercel.app/_next/image?url=http%3A%2F%2Fthehelpmatesfoundation.com%2Fwp-content%2Fuploads%2F2020%2F02%2FWhatsApp-Image-2019-12-19-at-6.46.27-PM-1024x768.jpeg&w=1920&q=75"				
@@ -34,7 +43,7 @@ export const Projects = () => {
                 Built using React (Next.js), Ethers.js, Solana Web3.js, Solana Pay, Stripe and Tailwind CSS."
 			/>
 
-             {/* Project 3 */}
+             {/* Project 4 */}
              <ProjectCard
 				gitlink="https://github.com/thestriver/devore-edu-app"
 				image="https://i.ibb.co/6Jbby8C/Screen-Shot-2022-03-22-at-18-28-24.png"				
@@ -44,7 +53,7 @@ export const Projects = () => {
 			/>
 
 
-            {/* Project 4  */}
+            {/* Project 5  */}
             <ProjectCard
 				gitlink="https://github.com/thestriver/schoolkit-contracts"
 				image="https://i.ibb.co/4Y1w14p/Screen-Shot-2022-03-22-at-18-14-52.png"				
@@ -53,7 +62,7 @@ export const Projects = () => {
                 Built using Solidity and Ethers.js"
 			/>
 
-            {/* Project 5  */}
+            {/* Project 6  */}
             <ProjectCard
 				gitlink="https://memories-ten.vercel.app/"
 				image="https://i.ibb.co/vzn332F/z-picture.png"				
@@ -63,7 +72,7 @@ export const Projects = () => {
 			/>
             
             
-            {/* Project 6  */}
+            {/* Project 7  */}
             <ProjectCard
 				gitlink="https://github.com/thestriver/moralised"
 				image="https://i.ibb.co/Kb4cJsX/Screen-Shot-2021-08-08-at-23-16-28.png"				
@@ -73,7 +82,7 @@ export const Projects = () => {
                 Built with React JS, Moralis API, and Bootstrap CSS."
 			/>
 
-            {/* Project 7  */}
+            {/* Project 8  */}
             <ProjectCard
 				gitlink="https://github.com/thestriver/js-eth-votingdapp"
 				image="https://i.ibb.co/MRyFvVT/ethereum-1024x683.jpg"				
