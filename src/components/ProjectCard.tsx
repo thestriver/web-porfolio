@@ -1,7 +1,7 @@
 interface CardProps {
-    image: string;
+    image: string
     title: string
-    description: string;
+    description: string
     gitlink: string
 }
 
