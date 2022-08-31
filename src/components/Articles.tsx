@@ -11,7 +11,6 @@ export const Articles = () => {
                         >web3</span> technical articles. I believe the best developers are those who are able to document their projects.
                     </p>
                 </div>
-            
             </div>
 
             <div className="container flex flex-col items-center px-2 pt-4 pb-12 mx-auto xl:flex-row">            
